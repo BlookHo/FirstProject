@@ -1,0 +1,17 @@
+menu:
+  -
+    title: "Главная"
+    path: "/"
+  -
+    title: "Помощь"
+    path: "/main/help"
+  -
+    title: "Контакты"
+    path: "/main/contacts"
+  -
+    title: "О проекте"
+    path: "/main/about"
+    children:
+      -
+        title: "Our Story"
+        path: "main/about/our-story"
