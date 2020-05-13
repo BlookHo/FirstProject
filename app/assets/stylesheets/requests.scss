@@ -1,0 +1,24 @@
+// Place all the styles related to the requests controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "mixins";
+
+.field_button{
+  margin: auto;
+  display: flex;
+}
+
+.button__results_request.save{
+  margin: auto;
+  border-radius: $radius-button;
+  border: 0;
+  height: 2.5em;
+  box-shadow: 2px 2px 2px $greyBack;
+  background: $image-display-fon;
+  width: 20%;
+  margin-top: .5em;
+  display:  block;  //none
+  cursor: auto;
+  text-decoration: none;
+  //padding: 0 10px
+}

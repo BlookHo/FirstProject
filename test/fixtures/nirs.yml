@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  university_id: 1
+  assessment1_id: 1
+  assessment2_id: 1
+  assessment3_id: 1
+  v: 1.5
+
+two:
+  name: MyString
+  university_id: 1
+  assessment1_id: 1
+  assessment2_id: 1
+  assessment3_id: 1
+  v: 1.5

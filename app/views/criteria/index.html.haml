@@ -1,0 +1,21 @@
+%h1 Критерии для оценивания научных работ
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th
+      %th
+      %th
+
+  %tbody
+    - @criteria.each do |criterium|
+      %tr
+        %td= criterium.name
+        %td= link_to 'Show', criterium
+        %td= link_to 'Edit', edit_criterium_path(criterium)
+        %td= link_to 'Destroy', criterium, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Criterium', new_criterium_path
