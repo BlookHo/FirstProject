@@ -39,7 +39,7 @@ gem "haml-rails", "~> 1.0"
 
 # Bootstrap 3 https://getbootstrap.com/docs/4.3/layout/overview/
 # Sass 3.7.3. https://sass-lang.com
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
