@@ -22,7 +22,7 @@
 #config/secrets.yml.key
 
 .DS_Store
-/config/secrets.yml
+#/config/secrets.yml
 .idea/
 .idea/dataSources.xml
 
