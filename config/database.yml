@@ -110,4 +110,4 @@ test:
 production:
   <<: *default
   database: firstproject_production
-  password: # < %= ENV['EXERCISE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['EXERCISE_DATABASE_PASSWORD'] %>
