@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.4'
 gem 'pg' , '~> 0.18'
 gem 'activerecord-reset-pk-sequence'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 
 gem 'sassc', '~> 2.0', '>= 2.0.1'
 # Icons fonts
